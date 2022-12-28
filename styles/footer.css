@@ -1,4 +1,4 @@
-.header {
+.footer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -10,17 +10,24 @@
   color: #fff;
 
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: auto auto;
   align-items: center;
   padding-right: 10px;
 }
 
-.header__logo {
+.footer__logo {
   width: 100px;
   height: 50px;
 }
 
-.header__button {
+.footer__buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: end;
+}
+
+.footer__button {
   color: inherit;
   background-color: inherit;
   border: none;
@@ -37,8 +44,8 @@
   height: 25px;
 }
 
-.header__button:hover
-/* ,.header__button:checked  */ {
+.footer__button:hover
+  /* ,.header__button:checked  */ {
   background: #00a3ff;
   border-radius: 4px;
 }

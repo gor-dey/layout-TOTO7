@@ -71,9 +71,8 @@
   font-weight: 700;
 }
 
-/* ! WHY DOES NOT WORKS ?! START */
+/* for */
 .image-slider__image._authorized-user :first-child {
   border: 4px solid #ff4e20;
   color: #ff4e20;
 }
-/* ! WHY DOES NOT WORKS ?! END */

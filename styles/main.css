@@ -1,5 +1,6 @@
 @import "./_swiper.css";
 @import "./_events.css";
+@import "./_choose-ticket.css";
 
 main {
   padding: 10px;
